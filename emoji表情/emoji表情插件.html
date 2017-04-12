@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>emoji</title>
+		<link rel="stylesheet" href="css/contact.css">
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/mobile-util.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swipeSlide.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/emoji.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="background: #f3f5f7;">
+		<div class="conversation">
+			<div class="maleri50">
+				<div class="salesclerk_dialogue">
+					<div class="saleslogo fl">
+						<img src="images/salesclerk.png">
+					</div>
+					<div class="salescontact fr">
+						尊敬的用户您好，欢迎光临本店！由于现在咨询的人数较多，可能无法及时回复您。您可以先完整的描述您的问题，我会尽快回复您的哦~
+					</div>
+				</div>
+				<!--聊天信息发送后显示的窗口-->
+			</div>
+		</div>
+		<div class="hiddenbox">
+			<div id="he100">
+				<div class="write_dialogue">
+					<a class="face" href="javascript:void(0);"><i class="write"></i></a>
+					<input class="writemf" type="text" id="face-text" name="" value="" />
+					<a class="send" href="javascript:void(0);"><i class="write"></i></a>
+				</div>
+			</div>
+			<div class="mslide" id="slideTpshop"></div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$("#slideTpshop").emoji();
+			})
+		</script>
+	</body>
+
+</html>

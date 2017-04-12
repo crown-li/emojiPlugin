@@ -1,0 +1,311 @@
+.custer .content .menu a {
+	display: inline-block;
+	margin-left: 1.06667rem
+}
+
+.neibohoo {
+	position: relative
+}
+
+.near_orbr {
+	right: 0;
+	position: absolute;
+	z-index: 999
+}
+
+.near_orbr a {
+	display: block;
+	width: 5.33333rem;
+	height: 1.70667rem;
+	line-height: 1.70667rem;
+	text-align: center;
+	color: white;
+	background: #808080;
+	font-size: .68267rem;
+	border-bottom: 1px solid #9a9a9a
+}
+
+.near_orbr a:last-child {
+	border-bottom: 0
+}
+
+.maleri50 {
+	margin: 0 1.06667rem
+}
+
+.order_datanoprice {
+	width: 8.27733rem;
+	background: #aad2ff;
+	border-radius: .08533rem;
+	font-size: .68267rem;
+	padding: .64rem;
+	margin: 0 auto
+}
+
+.order_datanoprice p {
+	line-height: .896rem
+}
+
+.order_datanoprice p .co_blue {
+	color: #0000ee;
+	text-decoration: underline
+}
+
+.system_dialogue {
+	background: white;
+	padding: .64rem;
+	border: 1px solid #dadde0
+}
+
+.system_dialogue .systemmessage {
+	color: #929292;
+	font-size: .59733rem
+}
+
+.system_dialogue .systemcontact {
+	margin-top: .64rem;
+	color: #4e4e4e;
+	font-size: .64rem;
+	line-height: .768rem
+}
+
+.salesclerk_dialogue {
+	overflow: hidden
+}
+
+.salesclerk_dialogue .saleslogo img {
+	width: 1.70667rem;
+	height: 1.70667rem;
+	border: 1px solid #dadde0
+}
+
+.salesclerk_dialogue .salescontact {
+	padding: .64rem;
+	background: white;
+	width: 11.34933rem;
+	font-size: .64rem;
+	color: #929292;
+	line-height: .768rem;
+	border-radius: .42667rem;
+	position: relative
+}
+
+.salesclerk_dialogue .salescontact:before {
+	content: "";
+	background: url(../images/1317.png) no-repeat;
+	width: .27733rem;
+	height: .36267rem;
+	background-size: .55467rem;
+	position: absolute;
+	left: -.27733rem;
+	top: .768rem
+}
+
+.customer_dialogue .salescontact:before {
+	right: -.27733rem;
+	left: inherit;
+	background-position-x: -.27733rem
+}
+
+.customer_dialogue .salescontact img {
+	width: 1.408rem;
+	height: 1.408rem
+}
+
+.order_datanoprice,
+.system_dialogue,
+.salesclerk_dialogue {
+	margin-top: 1.74933rem;
+	margin-bottom: 1.74933rem
+}
+
+.hiddenbox {
+	height: 2.13333rem;
+	overflow: hidden;
+}
+
+#he100 {
+	height: 2.13333rem
+}
+
+.write_dialogue {
+	background: #f0f0f0;
+	text-align: center;
+	height: 2.13333rem;
+	line-height: 2.38933rem;
+	position: fixed;
+	z-index: 9999;
+	bottom: 0;
+	width: 16rem
+}
+
+.write_dialogue a {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	height: 1.36533rem;
+	width: 1.36533rem;
+	top: 50%;
+	margin-top: -.68267rem
+}
+
+.write_dialogue a .write {
+	background: url(../images/write.png) no-repeat;
+	background-size: 2.77333rem;
+	height: 1.376rem;
+	width: 1.376rem;
+	display: inline-block
+}
+
+.write_dialogue .face {
+	left: .64rem
+}
+
+.write_dialogue .writemf {
+	width: 11.52rem;
+	height: 1.49333rem;
+	border-radius: .08533rem;
+	outline: none;
+	border: 0;
+	padding: 0 .21333rem;
+	font-size: .64rem;
+	color: #666666
+}
+
+.write_dialogue .send {
+	right: .64rem
+}
+
+.write_dialogue .send .write {
+	background-position-x: -1.408rem
+}
+
+.write_replece {
+	position: relative
+}
+
+.face-wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 9;
+	background-size: 16rem;
+	width: 16rem;
+	margin: 0 auto;
+	background-repeat: no-repeat
+}
+
+.face-wrap-1 {
+	background-image: url(../images/face-panel1.2fe5ad465032e7aadae0afca8ebf43f5.png)
+}
+
+.face-wrap-2 {
+	background-image: url(../images/face-panel2.8e18d844ab6d8cb545234adb1530e621.png)
+}
+
+.face-wrap-3 {
+	background-image: url(../images/face-panel3.6b545eb939f31bdfd2fbbdcd896d08fa.png)
+}
+
+.face-wrap-4 {
+	background-image: url(../images/face-panel4.ffa662fda1d9509d6b1384e34e50eb1d.png)
+}
+
+.face-wrap-5 {
+	background-image: url(../images/face-panel5.5a20055da498e5d4502211589668eb5a.png)
+}
+
+.face-img {
+	float: left;
+	box-sizing: border-box;
+	width: 2.28267rem;
+	height: 2.02667rem;
+	cursor: pointer
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.mslide li {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mslide li:first-child {
+    z-index: 1;
+}
+
+body {
+    width: 16rem;
+    max-width: 16rem;
+    margin: 0 auto;
+    font-family: Helvetica,PingFangSC-Regular,"Droid Sans",Arial,sans-serif;
+    font-size: .34133rem;
+    line-height: 1;
+    color: #232326;
+    overflow-x: hidden;
+}
+
+.mslide ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mslide {
+    position: relative;
+    overflow: hidden;
+}
+
+.mslide .dot span {
+    display: inline-block;
+    width: .21333rem;
+    height: .21333rem;
+    margin-left: .21333rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.mslide .dot .cur {
+    background-color: #fff;
+}
+
+.mslide .dot {
+    position: absolute;
+    right: .21333rem;
+    bottom: .21333rem;
+    z-index: 5;
+    font-size: 0;
+}
+
+.mslide:after {
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 40%;
+}
+
+/*# sourceMappingURL=contactcustomerservice.css.map */
